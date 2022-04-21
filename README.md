@@ -126,13 +126,33 @@ Os [switches] são os principais componentes de qualquer rede. Eles conectam vá
 
 </br>
 <p align="center">
-  <kbd><img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/144530/juanjo_Router.png" height=200 alt="router"></kbd>
+  <kbd><img src="https://github.com/andersonhsporto/ft-Net_Practice/blob/main/img/juanjo_Router(1).png" height=200 alt="router"></kbd>
 </p>
 </br>
 
 [Roteadores] orientam e direcionam os dados da rede, usando pacotes que contêm vários tipos de dados, como arquivos e comunicações e transmissões simples, como interações na Web. São dispositivo amplamente utilizado na computação em rede moderna, os roteadores conectam os funcionários às redes locais e à Internet, onde ocorrem praticamente todas as atividades empresariais essenciais. Sem roteadores, não poderíamos usar a Internet para nos comunicarmos, coletar informações e aprender, nem para trabalhar em equipe. 
+
+#### Tabelas de roteamento
+
 </br>
+<p align="center">
+  <kbd><img src="https://www.gta.ufrj.br/grad/04_1/rip/i/fig3.gif" height=150 alt="routing_table"></kbd>
+</p>
 </br>
+
+Uma tabela de roteamento de hosts inclui somente informações sobre redes conectadas diretamente. O host exige que um gateway padrão envie pacotes para um destino remoto. A tabela de roteamento de um roteador contém informações semelhantes mas também pode identificar redes remotas específicas.
+<br>
+Neste exercicio, a tabela de roteamento consiste em dois elementos:
+
+```
+    DESTINO => NEXT HOP (*ENDEREÇO DO GATEWAY)
+```
+
+ 
+- **Destino**: [Endereço de destino]. Pode ser o endereço de uma rede (por exemplo: 10.10.10.0), o endereço de um equipamento da rede, o endereço de uma sub-rede (veja detalhes sobre sub-rede mais adiante) ou o endereço da rota padrão (0.0.0.0 ou default neste exercicio). A rota padrão significa: "a rota que será utilizada, caso não tenha sido encontrada uma rota específica para o destino". Por exemplo, se for definida que a rota padrão deve ser envida pela interface com IP 10.10.5.2 de um determinado roteador, sempre que chegar um pacote, para o qual não existe uma rota específica para o destino do pacote, este será enviado pela roda padrão, que no exemplo seria a interface 10.10.5.2. Falando de um jeito mais simples: Se não souber para onde mandar, manda para a rota padrão. 
+
+- **Next hop**: Endereço IP da interface para a qual o pacote deve ser enviado.
+
 
 
 
@@ -145,3 +165,5 @@ Os [switches] são os principais componentes de qualquer rede. Eles conectam vá
 [CIDR]: <https://www.datarain.com.br/blog/tecnologia-e-inovacao/o-que-e-cidr/>
 [switches]: <https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/network-switch-how.html>
 [Roteadores]: <https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/what-is-a-router.html#~como-funciona-um-roteador>
+[Endereço de destino]: <http://www.linhadecodigo.com.br/artigo/167/tutorial-de-tcp_ip-parte-6-tabelas-de-roteamento.aspx>
+[Endereço de destino]: <http://www.linhadecodigo.com.br/artigo/167/tutorial-de-tcp_ip-parte-6-tabelas-de-roteamento.aspx>
