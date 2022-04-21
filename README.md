@@ -1,9 +1,9 @@
 # Net_Practice
 
 ## _A system administration exercise._
+<br>
 
-## Conceitos:
-
+## _Conceitos_
 ### Endereço de IP
 
 > Endereço IP é um [endereço exclusivo] que identifica um dispositivo na Internet ou
@@ -107,6 +107,33 @@ Entretanto as faixas das extremidades são descartadas, pois estas são utilizad
 Dessa forma podemos determinar que a faixa de endereços de IP que pode ser utilizadas é a ``104.198.241.1 - 104.198.241.126``. <br>
 *Também podemos utilizar aplicativos como [IP calculator](https://www.calculator.net/ip-subnet-calculator.html) para encontrar informações relacionadas a rede.
 
+---
+
+### Switch
+
+</br>
+<p align="center">
+  <kbd><img src="https://cdn.pixabay.com/photo/2013/10/18/07/43/network-197300_960_720.jpg" height=200 alt="switch"></kbd>
+</p>
+</br>
+
+Os [switches] são os principais componentes de qualquer rede. Eles conectam vários dispositivos, como computadores, access points sem fio, impressoras e servidores na mesma rede, seja em um prédio ou no campus. Um switch permite que os dispositivos conectados compartilhem informações e conversem entre si.
+
+</br>
+
+---
+### Roteador (Router)
+
+</br>
+<p align="center">
+  <kbd><img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/144530/juanjo_Router.png" height=200 alt="router"></kbd>
+</p>
+</br>
+
+[Roteadores] orientam e direcionam os dados da rede, usando pacotes que contêm vários tipos de dados, como arquivos e comunicações e transmissões simples, como interações na Web. São dispositivo amplamente utilizado na computação em rede moderna, os roteadores conectam os funcionários às redes locais e à Internet, onde ocorrem praticamente todas as atividades empresariais essenciais. Sem roteadores, não poderíamos usar a Internet para nos comunicarmos, coletar informações e aprender, nem para trabalhar em equipe. 
+</br>
+</br>
+
 
 
 
@@ -116,3 +143,5 @@ Dessa forma podemos determinar que a faixa de endereços de IP que pode ser util
 [sub-redes]: <https://www.datarain.com.br/blog/tecnologia-e-inovacao/como-calcular-uma-mascara-de-sub-rede/>
 [máscara correspondente]: <https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede>
 [CIDR]: <https://www.datarain.com.br/blog/tecnologia-e-inovacao/o-que-e-cidr/>
+[switches]: <https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/network-switch-how.html>
+[Roteadores]: <https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/what-is-a-router.html#~como-funciona-um-roteador>
